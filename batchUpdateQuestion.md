@@ -22,7 +22,8 @@ return (
 
 export default App
 
-                _Answer:_ In React, when you call setCount(count + 1), it schedules an asynchronous state update rather than applying the change immediately. React adopts this approach for performance optimization. Here's a breakdown of what happens:
+_Answer:_  
+ In React, when you call setCount(count + 1), it schedules an asynchronous state update rather than applying the change immediately. React adopts this approach for performance optimization. Here's a breakdown of what happens:
 
                 _Asynchronous State Update_: React treats state updates as asynchronous to enhance performance. When setCount is called, React doesn't immediately update the state.
 
@@ -56,7 +57,8 @@ return (
 
 export default App
 
-                _Answer:_ When the "Click Me" button is clicked, the handleClick function is executed, and it contains three consecutive calls to setCount(count + 1).
+_Answer:_
+                When the "Click Me" button is clicked, the handleClick function is executed, and it contains three consecutive calls to setCount(count + 1).
 
                 Now, let's break down what happens during the execution:
 
